@@ -1,4 +1,5 @@
 ActiveAdmin.register Task do
+  permit_params :completed
 
 
   # See permitted parameters documentation:
